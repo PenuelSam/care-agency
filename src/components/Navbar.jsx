@@ -9,7 +9,7 @@ const Navbar = () => {
     {
         id: 1,
         name: 'Home',
-        link: '/',
+        link: 'home',
     },
     {
         id: 2,
@@ -38,14 +38,14 @@ const showMenu = () => {
     <div className="sticky top-0 left-0 right-0 h-[12vh] lg:h-[15vh] flex items-center justify-center opacity-100 z-[200] shadow-lg bg-white/50">
     <nav className="max-container flex justify-between items-center  pt-5 ">
       <div className="flex flex-col text-center">
-         <h1 className="font-bold tracking-wide text text-[5px] sm:text-[5px]">HOME CARE</h1>
-         <p className="text-gray-400 text-[5px] sm:text-[5px] tracking-wider">AGENCY</p>
+         <h1 className="font-bold tracking-wide text text-[20px] sm:text-[15px]">HOME CARE</h1>
+         <p className="text-gray-400 text-[20px] sm:text-[15px] tracking-wider">AGENCY</p>
       </div>
 
       <ul className="list-none flex lg:hidden uppercase items-center justify-center cursor-pointer">
         {NavLinks.map((nav) => (
           <a href={nav.link} target="_parent" rel="noreferrer">
-            <li key={nav.id} className={`ml-[20px] text-[5px] list`}>{nav.name}</li>
+            <li key={nav.id} className={`ml-[20px] text-[15px] list`}>{nav.name}</li>
             </a>
         ))}
       </ul>

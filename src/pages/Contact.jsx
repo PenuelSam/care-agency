@@ -10,43 +10,43 @@ const Contact = () => {
         <div className="max-container flex justify-between items-center">  
         <div className='flex lg:hidden flex-col gap-[100px]'>
         <div className='flex gap-5'>
-            <LocationOnOutlinedIcon sx={{fontSize: "40px", color: "#0000FF"}}/>
+            <LocationOnOutlinedIcon sx={{fontSize: "30px", color: "#0000FF"}}/>
             <div>
-              <h1 className='text-[30px] font-bold '>Address</h1>
-              <p className='text-[20px]  font-bold w-52'>Canalside House Office 1 383 Ladbroke Grove, London W10 5AA</p>
+              <h1 className='text-[25px] font-bold '>Address</h1>
+              <p className='text-[15px]  font-bold w-52'>Canalside House Office 1 383 Ladbroke Grove, London W10 5AA</p>
             </div>
         </div>
         <div className='flex gap-5'>
-          <CallOutlinedIcon sx={{fontSize: "40px", color: "#0000FF"}} />
+          <CallOutlinedIcon sx={{fontSize: "30px", color: "#0000FF"}} />
           <div>
-            <h1 className='text-[30px] font-bold'>Telephone</h1>
-            <span className='text-[20px] font-bold'>030 8860 1901</span>
+            <h1 className='text-[25px] font-bold'>Telephone</h1>
+            <span className='text-[15px] font-bold'>030 8860 1901</span>
           </div>
         </div>
         <div className='flex gap-5'>
-          <MailOutlinedIcon sx={{fontSize: "40px", color: "#0000FF"}} />
+          <MailOutlinedIcon sx={{fontSize: "30px", color: "#0000FF"}} />
           <div>
-            <h1 className='text-[30px] font-bold'>Email</h1>
-             <span className='text-[20px] font-bold'>info@homeagency.co.uk</span>
+            <h1 className='text-[25px] font-bold'>Email</h1>
+             <span className='text-[15px] font-bold'>info@homeagency.co.uk</span>
           </div>
         </div>
         </div>
         <div className="w-[700px] p-[30px] bg-gray-100">
         <form>
             <div className="flex flex-col">
-            <label className="text-[20px] font-bold py-3">Name *</label>
+            <label className="text-[15px] font-bold py-3">Name *</label>
             <input type="text" className="outline-none rounded-md h-[40px]"/>
             </div>
             <div className="flex flex-col">
-            <label className="text-[20px] font-bold py-3">Phone *</label>
+            <label className="text-[15px] font-bold py-3">Phone *</label>
             <input type="number" className="outline-none rounded-md h-[40px]"/>
             </div>
             <div className="flex flex-col">
-            <label className="text-[20px] font-bold py-3">Email *</label>
+            <label className="text-[15px] font-bold py-3">Email *</label>
             <input type="email" className="outline-none rounded-md h-[40px]" />
             </div>
             <div className="flex flex-col">
-            <label className="text-[20px] font-bold py-3">Message *</label>
+            <label className="text-[15px] font-bold py-3">Message *</label>
             <textarea name="" id="" cols="30" rows="10" className="outline-none rounded-sm"></textarea>
             </div>
             <div className="flex justify-end mt-5">

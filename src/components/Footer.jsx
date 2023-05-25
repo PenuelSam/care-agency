@@ -14,17 +14,17 @@ const Footer = () => {
             </div>
         </div>
         <div className='flex gap-5'>
-          <CallOutlinedIcon sx={{fontSize: "40px", color: "#fff"}} />
+          <CallOutlinedIcon sx={{fontSize: "30px", color: "#fff"}} />
           <div>
-            <h1 className='text-[30px] sm:text-[30px] lg:text-[40px] font-bold text-white'>Telephone</h1>
-            <span className='text-[20px] sm:text-[20px] lg:text-[30px] text-white font-bold'>030 8860 1901</span>
+            <h1 className='text-[20px] sm:text-[20px] lg:text-[30px] font-bold text-white'>Telephone</h1>
+            <span className='text-[15px] sm:text-[15px] lg:text-[20px] text-white font-bold w-52'>030 8860 1901</span>
           </div>
         </div>
         <div className='flex gap-5'>
-          <MailOutlinedIcon sx={{fontSize: "40px", color: "#fff"}} />
+          <MailOutlinedIcon sx={{fontSize: "30px", color: "#fff"}} />
           <div>
-            <h1 className='text-[30px] sm:text-[30px] lg:text-[40px] font-bold text-white'>Email</h1>
-             <span className='text-[20px] sm:text-[20px] lg:text-[30px] text-white font-bold'>info@homeagency.co.uk</span>
+            <h1 className='text-[20px] sm:text-[20px] lg:text-[30px] text-white font-bold'>Email</h1>
+             <span className='text-[15px] sm:text-[15px] lg:text-[20px] text-white font-bold w-52'>info@homeagency.co.uk</span>
           </div>
         </div>
           </div>
