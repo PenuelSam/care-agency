@@ -12,7 +12,6 @@
 
     body{
         font-family: 'Roboto', sans-serif;
-        @apply text-[]
     }
     
     
@@ -35,7 +34,7 @@
     }
 
     .list:hover, .active{
-        @apply bg-[#0000FF] text-white w-[70px] px-[100px] scale-100 flex items-center justify-center rounded-lg
+        @apply bg-[#0000FF] text-white w-[50px] px-[70px] scale-100 flex items-center justify-center rounded-lg
     }
 
     .header{
